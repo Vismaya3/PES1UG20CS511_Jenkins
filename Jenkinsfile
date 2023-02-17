@@ -15,7 +15,7 @@ pipeline{
         }
         stage('Deploy'){
             stage{
-                sh './PES1UG20CS511.cpp'
+                sh 'echo " Deploying"'
                 echo 'deployment successfull'
             }
         }
